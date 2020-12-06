@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  max-height: 100px;
+  font-size: 1.25em;
+}
+
+.navigationItem {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 1em;
+}
+
+.navigationItem a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', 'Avenir', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #004665;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navigationItem a:hover,
+.navigationItem svg:hover {
+  color: #e73e20;
+}
